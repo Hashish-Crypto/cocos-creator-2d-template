@@ -1,27 +1,26 @@
 {
   "name": "cocos-2d-template",
-  "type": "3d",
-  "uuid": "f1a35c11-46f0-41d0-aa71-ef370c037141",
-  "version": "3.4.1",
+  "uuid": "90bc5e1f-2320-46df-bf9c-bd0392e6d288",
+  "version": "3.4.2",
   "creator": {
-    "version": "3.4.1"
+    "version": "3.4.2"
   },
   "main": "index.js",
   "repository": "https://github.com/Hashish-Crypto/cocos-2d-template.git",
   "author": "Leandro Acquati <leandroacquati@gmail.com>",
   "license": "MIT",
   "description": "A Cocos Creator 2D template made with Typescript.",
+  "dependencies": {
+    "typescript": "^4.6.2"
+  },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
-    "@typescript-eslint/eslint-plugin": "^5.12.1",
-    "@typescript-eslint/parser": "^5.12.1",
-    "eslint": "^8.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.2",
-    "prettier": "^2.5.1"
-  },
-  "dependencies": {
-    "typescript": "^4.5.5"
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "prettier": "^2.6.0"
   }
 }
