@@ -1,12 +1,19 @@
 # Cocos Creator 2D Template
 
-A [Cocos Creator](https://www.cocos.com/en/creator) 2D template made with [Typescript](https://www.typescriptlang.org/).
+A [Cocos Creator 3.5.1](https://www.cocos.com/en/creator) 2D template made with
+[Typescript](https://www.typescriptlang.org/).
 
-Comes with ESLint, Prettier, Yarn and VSCode configuration.
+## Running the client locally
 
-## Setup
+```
+git clone https://github.com/Hashish-Crypto/cocos-creator-2d-template.git
+cd cocos-creator-2d-template
+npm install
+```
 
-### Prerequisites for development
+Open Cocos Dashboard and add this project.
+
+## Prerequisites for development
 
 Install Cocos Creator [cocos.com/en/creator/download](https://www.cocos.com/en/creator/download)
 
@@ -23,23 +30,11 @@ Open Git Bash as system administrator:
 # Install Node and NPM
 nvm install latest
 nvm current
-nvm use 17.6.0
+nvm use 18.0.0
 node -v
 npm -v
-
-# Install Yarn
-npm install -g yarn
-yarn -v
 ```
 
-### Installing
+## License
 
-```bash
-git clone https://github.com/Hashish-Crypto/cocos-2d-template
-cd cocos-2d-template
-yarn install
-
-code .
-```
-
-Open Cocos Dashboard and add this project.
+MIT
